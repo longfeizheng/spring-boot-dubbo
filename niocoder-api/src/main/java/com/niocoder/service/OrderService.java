@@ -15,5 +15,5 @@ public interface OrderService {
      * @param userId
      * @return
      */
-    List<OrderInfo> getOrderListByUserId(Integer userId);
+    List<OrderInfo> getOrderListByUserId(String userId);
 }

@@ -10,8 +10,8 @@ public interface UserService {
     /**
      * 根据用户Id 获取用户信息
      *
-     * @param UserId
+     * @param uerId
      * @return
      */
-    UserInfo getUserInfoById(Integer UserId);
+    UserInfo getUserInfoById(String uerId);
 }
