@@ -1,12 +1,10 @@
 package com.niocoder.service.impl;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.niocoder.bean.UserInfo;
 import com.niocoder.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
-@Service
 @Component
 @Slf4j
 public class UserServiceImpl implements UserService {

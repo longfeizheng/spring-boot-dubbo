@@ -1,13 +1,2 @@
-dubbo:
-  application:
-    name: order-service-consumer # 指定当前服务/应用的名字（同样的服务名字相同，不要和别的服务同名）
-  registry:
-    address: 127.0.0.1:2181 # 指定注册中心的位置 和 协议
-    protocol: zookeeper
-  protocol:
-    name: dubbo # 指定通信规则 和通信端口号
-    port: 20881
-  monitor:
-    protocol: registry # 监控中心
 server:
   port: 8081
